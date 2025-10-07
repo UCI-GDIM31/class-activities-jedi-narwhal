@@ -4,7 +4,9 @@
 Hello World! 
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+1. The r, g,b variables are floats because the values go from 0-1. They are between intger values making them deicmals. Intergers cant be decimals. It can't be a bool beause it doesn't involve true or false. It isn't a string because it is a number value.
+2. _bounce is a int because you can't have partial of a bounce. It can't be a bool beause it doesn't involve true or false. It isn't a string because it is a number value. 
+3. The error is that you need to add a semi-colon.
 
 ## Open-Source Assets
 ### W1
