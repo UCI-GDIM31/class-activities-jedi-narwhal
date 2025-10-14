@@ -8,6 +8,9 @@ Hello World!
 2. _bounce is a int because you can't have partial of a bounce. It can't be a bool beause it doesn't involve true or false. It isn't a string because it is a number value. 
 3. The error is that you need to add a semi-colon.
 
+### W3
+We use integers (0-100 as representing sanity level) as parameters. We use void to return something since the brightness is already updated.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
