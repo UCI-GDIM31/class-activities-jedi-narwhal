@@ -10,6 +10,8 @@ Hello World!
 
 ### W3
 We use integers (0-100 as representing sanity level) as parameters. We use void to return something since the brightness is already updated.
+1. The skinwalker is the component. The skin is the class. Within the class, there are variable and methods. The variables are the details and methods are the overall behavior.
+2. The ball gets extremely bright because the ball is moving very fast.
 
 ## Open-Source Assets
 ### W1
