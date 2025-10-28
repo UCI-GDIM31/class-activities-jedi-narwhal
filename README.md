@@ -19,6 +19,12 @@ line 32: a memeber variable wiil be set to false
 1. The Cat and the ball need Ridgebody becuase they are in motion and they need physics. The goal uses istrigger tp see if the ball overlaps with it.
 ### W5
 When is a vector overkilll? Answer: Never, there is no vector overkill. 
+ Notes: 
+ member variable: transform the object of the deer needs to follow.
+  The AI needs NavMeshAgent to tell the deer what to do.
+  Methods: Start(), Update()
+
+  
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
