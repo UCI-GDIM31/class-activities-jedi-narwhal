@@ -23,8 +23,12 @@ When is a vector overkilll? Answer: Never, there is no vector overkill.
  member variable: transform the object of the deer needs to follow.
   The AI needs NavMeshAgent to tell the deer what to do.
   Methods: Start(), Update()
-
-  
+### W6
+I worked on the math category of the google doc.
+Link: https://docs.google.com/document/d/1lmiUEvktjmcBWJmVSkGWRt156K5VDO01tHGCc-V7qak/edit?tab=t.0
+  plan:
+  assign bats to all bats
+  make a serialize field for speed
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
