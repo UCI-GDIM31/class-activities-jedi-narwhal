@@ -23,7 +23,9 @@ When is a vector overkilll? Answer: Never, there is no vector overkill.
  member variable: transform the object of the deer needs to follow.
   The AI needs NavMeshAgent to tell the deer what to do.
   Methods: Start(), Update()
-
+### W5
+I worked on the math category of the google doc.
+Link: https://docs.google.com/document/d/1lmiUEvktjmcBWJmVSkGWRt156K5VDO01tHGCc-V7qak/edit?tab=t.0
   
 ## Open-Source Assets
 ### W1
