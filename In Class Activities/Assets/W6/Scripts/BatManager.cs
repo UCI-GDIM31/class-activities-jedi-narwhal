@@ -1,3 +1,5 @@
+
+
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,6 +14,7 @@ public class BatManager : MonoBehaviour
     // STEP 1 -----------------------------------------------------------------
     // Add a member variable named "_bats" that's an array of BatW6 Components.
     // In the Inspector, add ALL of the bats in the Scene.
+    [SerializeField] private BatW6[] _bats;
     
     // STEP 1 -----------------------------------------------------------------
 
@@ -19,7 +22,7 @@ public class BatManager : MonoBehaviour
     // Add a member variable named "_messages" that's an array of strings.
     // In the Inspector, add at least a few different messages for the bats to
     //      say when they reach the player.
-    
+    [SerializeField] private string[] _messages;
     // STEP 3 -----------------------------------------------------------------
 
     [SerializeField] private float[] _newTextTimers;
@@ -48,7 +51,7 @@ public class BatManager : MonoBehaviour
         // STEP 7 -------------------------------------------------------------
         // Loop through all of the entries in _newTextTimers, and increase each
         //      timer's value by the amount of time that passed this frame.
-        
+
 
         // STEP 7 -------------------------------------------------------------
 
@@ -64,6 +67,23 @@ public class BatManager : MonoBehaviour
         //      to help you with that distance check :)
         // https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.html
         //
+        for (int i = 0; i < _bats.Length; i++)
+        {
+            Vector3 playerCoordinate = _playerTransform.transform.position;
+            Vector3 batCoordinate = _bats[i].transform.position;
+
+            if (Vector2.Distance(batCoordinate, playerCoordinate) <= _interactDistance)
+            {
+                _bats[i].EnableChase(_playerTransform);
+            }
+            if (Vector2.Distance(batCoordinate, playerCoordinate) <= _overlapDistance)
+            {
+                CreateReactions(_bats[i]);
+            }
+        }
+
+
+
         // STEP 4
         // Also inside this for loop, if the distance between the bat and the
         //      player is less than _overlapDistance, call CreateReactions()
