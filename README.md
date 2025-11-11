@@ -32,7 +32,7 @@ Link: https://docs.google.com/document/d/1lmiUEvktjmcBWJmVSkGWRt156K5VDO01tHGCc-
 ### W7
   1. I did the part on ui. link: https://docs.google.com/document/d/1sbxFwadVoEb2vnPq9DS7bAOivA7REpEKIh1f_uew8pQ/edit?tab=t.0
   2. We have to move on the local y axis to move on top of the bubbles. Then we use move speed and time deltatime time move forward.  
-  3. Step 2: We need to use transform.translate.
+  3. Step 2: We need to use transform.translate because we want to move it across the coordinate space.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
